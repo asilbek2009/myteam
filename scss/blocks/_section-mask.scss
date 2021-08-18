@@ -1,0 +1,28 @@
+.section__mask {
+    background-color: #012F34;
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background-image: url(/images/clients-bg.svg);
+    background-repeat: no-repeat;
+}
+.clients__title {
+    width: 920;
+    margin: 0 auto;
+}
+.clients__title-h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;    
+    margin-block-start: 0em;
+    margin-block-end: 70px;
+}
+.clients__pages {
+    @include reset-list;
+    display: flex;
+}
+.clients__item ~ .clients__item {
+    margin-left: 80px;
+}
